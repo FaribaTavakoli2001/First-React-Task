@@ -1,5 +1,5 @@
 .header{
-    background: #9e9e9e;
+    background: #9e9e9eb1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,5 +27,5 @@
     font-weight: bold;
 }
 .list li:hover{
-    color: #b4b4b4 ;
+    color: #696969 ;
 }
