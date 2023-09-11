@@ -9,6 +9,7 @@
         background-color:#ecececec ;
         border-radius: 10px;
         overflow: hidden;
+        cursor: pointer;
     
     }
     .container h3{
