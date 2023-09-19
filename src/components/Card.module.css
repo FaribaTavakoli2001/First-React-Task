@@ -9,7 +9,7 @@
         background-color:#ecececec ;
         border-radius: 10px;
         overflow: hidden;
-        cursor: pointer;
+        /* cursor: pointer; */
     
     }
     .container h3{
@@ -24,4 +24,24 @@
         padding: 5px;
         border-radius: 5px;
     }
-    
+    .counter {
+        display: flex;
+        align-items: center;
+    }
+    .counter img{
+        width: 20px;
+        height: 20px;
+        margin: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .counter span{
+        background: rgb(61, 61, 189);
+        color: #fff;
+        padding: 5px;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .deactive {
+        opacity: 0.3 ;
+    }
