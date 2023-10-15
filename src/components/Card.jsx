@@ -26,12 +26,12 @@ class Card extends Component {
     }
 
     render() {
-        const {image , name , price , children } = this.props;
+        const {image , title , price , children } = this.props;
         const { counter } = this.state ;
         return (
             <div className={styles.container}>
                 <img src={image} alt='smart phone' />
-                <h3>{name} {children}</h3>
+                <h3>{title} {children}</h3>
                 <p>{price} {counter ? `* ${counter} = ${counter * Number(price.split(' ')[0])} $`: ''}</p> 
                 
                 <div className={styles.counter}>

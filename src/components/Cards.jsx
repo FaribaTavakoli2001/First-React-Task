@@ -28,7 +28,7 @@ class Cards extends Component {
                <Card image = {iphone13} name ="Iphone 13" price = "610 $"/>
                <Card image = {iphone15} name ="Iphone 15" price = "700 $">(Coming soon ...)</Card>
                 <Card image = {whatch7} name ="I Watch 7" price = "220 $"/>*/}
-                {this.state.phoneData.map(phone => <Card key={phone.name} image={phone.image} name={phone.name} price={phone.price}/>)}
+                {this.state.phoneData.map(phone => <Card key={phone.name} image={phone.image} title={phone.name} price={phone.price}/>)}
             </div>
         );
     }
